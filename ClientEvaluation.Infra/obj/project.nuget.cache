@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aHMxYwCBtccvXEwcc6gnshwp9ctb/3UGHhDjTOwr1DoH5j8ucZBbLpSQk8ZSk6vjTQ9A0zt07SsUcFqShL53LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mateus\\source\\repos\\ClientEvaluation\\ClientEvaluation.Infra\\ClientEvaluation.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateus\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

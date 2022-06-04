@@ -1,0 +1,12 @@
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\bin\Debug\net6.0\ClientEvaluation.Infra.deps.json
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\bin\Debug\net6.0\ClientEvaluation.Infra.dll
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\bin\Debug\net6.0\ClientEvaluation.Infra.pdb
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ClientEvaluation.Infra.csproj.AssemblyReference.cache
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ClientEvaluation.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ClientEvaluation.Infra.AssemblyInfoInputs.cache
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ClientEvaluation.Infra.AssemblyInfo.cs
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ClientEvaluation.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ClientEvaluation.Infra.dll
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\refint\ClientEvaluation.Infra.dll
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ClientEvaluation.Infra.pdb
+C:\Users\Mateus\source\repos\ClientEvaluation\ClientEvaluation.Infra\obj\Debug\net6.0\ref\ClientEvaluation.Infra.dll
