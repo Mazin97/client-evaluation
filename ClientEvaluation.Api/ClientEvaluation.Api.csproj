@@ -13,4 +13,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClientEvaluation.Domain\ClientEvaluation.Domain.csproj" />
+    <ProjectReference Include="..\ClientEvaluation.Infra\ClientEvaluation.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
