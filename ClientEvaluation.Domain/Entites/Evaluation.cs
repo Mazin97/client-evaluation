@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ClientEvaluation.Domain.Entites;
 
-namespace ClientEvaluation.Domain.Entites;
 public class Evaluation : Entity
 {
     public Evaluation()
