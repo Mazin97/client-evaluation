@@ -9,7 +9,7 @@ public class Grade : Entity
         AddNotifications(
             new Contract<Grade>()
                 .Requires()
-                .IsNotNull(clientId, "clientId", "O id do cliente é obrigatório")
+                .IsNotNull(clientId, "ClientId", "O id do cliente é obrigatório")
                 .IsBetween(0, 10, score, "Score", "A pontuação deve estar entre 0 e 10")
                 .IsNotNullOrEmpty(reason, "Reason", "O motivo da avaliação é obrigatório")
         );
@@ -25,4 +25,3 @@ public class Grade : Entity
 
     public string Reason { get; private set; }
 }
-

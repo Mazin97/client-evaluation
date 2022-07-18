@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "21/oSbGMhYA9thMyjQy71mOoOquCEfOpXwrsU8EgOWo=",
+  "Source": "ClientEvaluation.Api",
+  "BasePath": "_content/ClientEvaluation.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

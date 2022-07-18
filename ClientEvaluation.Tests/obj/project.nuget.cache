@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ndMLOgWW38u6j2+l6Bt/RFxVidbzkmWNzhMHfcMhRXI8bgU2AvAJoDAcMAuAQO605DD1Z9kRa+M1IcbHO92WaA==",
+  "dgSpecHash": "CPNcsNwbxE/v3vKLqregOh6GFmt+5gBKQKb8Wit1YKMmOG6QWAUT1twx1pczfuVXC7DsFrOVbJBBQ8rBFIMujQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mateus\\source\\repos\\ClientEvaluation\\ClientEvaluation.Tests\\ClientEvaluation.Tests.csproj",
+  "projectFilePath": "C:\\dev\\client-evaluation\\ClientEvaluation.Tests\\ClientEvaluation.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mateus\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",

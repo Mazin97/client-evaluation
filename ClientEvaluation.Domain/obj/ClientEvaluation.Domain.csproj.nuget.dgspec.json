@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateus\\source\\repos\\ClientEvaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj": {}
+    "C:\\dev\\client-evaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateus\\source\\repos\\ClientEvaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj": {
+    "C:\\dev\\client-evaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\source\\repos\\ClientEvaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj",
+        "projectUniqueName": "C:\\dev\\client-evaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj",
         "projectName": "ClientEvaluation.Domain",
-        "projectPath": "C:\\Users\\Mateus\\source\\repos\\ClientEvaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj",
+        "projectPath": "C:\\dev\\client-evaluation\\ClientEvaluation.Domain\\ClientEvaluation.Domain.csproj",
         "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\source\\repos\\ClientEvaluation\\ClientEvaluation.Domain\\obj\\",
+        "outputPath": "C:\\dev\\client-evaluation\\ClientEvaluation.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

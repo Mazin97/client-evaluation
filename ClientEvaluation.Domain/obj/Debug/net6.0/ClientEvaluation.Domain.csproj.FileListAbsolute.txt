@@ -1,0 +1,12 @@
+C:\dev\client-evaluation\ClientEvaluation.Domain\bin\Debug\net6.0\ClientEvaluation.Domain.deps.json
+C:\dev\client-evaluation\ClientEvaluation.Domain\bin\Debug\net6.0\ClientEvaluation.Domain.dll
+C:\dev\client-evaluation\ClientEvaluation.Domain\bin\Debug\net6.0\ClientEvaluation.Domain.pdb
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ClientEvaluation.Domain.csproj.AssemblyReference.cache
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ClientEvaluation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ClientEvaluation.Domain.AssemblyInfoInputs.cache
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ClientEvaluation.Domain.AssemblyInfo.cs
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ClientEvaluation.Domain.csproj.CoreCompileInputs.cache
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ClientEvaluation.Domain.dll
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\refint\ClientEvaluation.Domain.dll
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ClientEvaluation.Domain.pdb
+C:\dev\client-evaluation\ClientEvaluation.Domain\obj\Debug\net6.0\ref\ClientEvaluation.Domain.dll

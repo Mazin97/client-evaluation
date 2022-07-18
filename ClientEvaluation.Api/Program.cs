@@ -1,15 +1,22 @@
+using ClientEvaluation.Domain.Handlers;
+using ClientEvaluation.Domain.Repositories;
+using ClientEvaluation.Infra.Contexts;
+using ClientEvaluation.Infra.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+
+builder.Services.AddTransient<IClientRepository, ClientRepository>();
+builder.Services.AddSingleton<CreateClientHandler, CreateClientHandler>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,6 +24,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+//app.UseCors(x => x
+//    .AllowAnyHeader()
+//    .AllowAnyMethod()
+//    .AllowAnyOrigin());
 
 app.UseAuthorization();
 

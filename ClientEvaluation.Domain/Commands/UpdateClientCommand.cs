@@ -8,11 +8,14 @@ public class UpdateClientCommand : Notifiable<Notification>, ICommand
 {
     public UpdateClientCommand() { }
 
-    public UpdateClientCommand(string commercialName, string responsibleName)
+    public UpdateClientCommand(Guid id, string commercialName, string responsibleName)
     {
+        Id = id;
         CommercialName = commercialName;
         ResponsibleName = responsibleName;
     }
+
+    public Guid Id { get; set; }
 
     public string CommercialName { get; set; }
 
@@ -23,10 +26,9 @@ public class UpdateClientCommand : Notifiable<Notification>, ICommand
         AddNotifications(
             new Contract<CreateClientCommand>()
                 .Requires()
-                .IsNotNullOrEmpty(CommercialName, "commercialName", "A razão social é obrigatória")
+                .IsNotNull(Id, "Id", "O Id do cliente é obrigatório")
                 .IsGreaterOrEqualsThan(CommercialName, 3, "commercialName", "A razão social deve conter ao menos 3 caracteres")
                 .IsLowerThan(CommercialName, 200, "commercialName", "A razão social deve conter até 200 caracteres")
-                .IsNotNullOrEmpty(ResponsibleName, "responsibleName", "O nome do responsável é obrigatória")
                 .IsGreaterOrEqualsThan(ResponsibleName, 3, "responsibleName", "O nome do responsável deve conter ao menos 3 caracteres")
                 .IsLowerThan(ResponsibleName, 200, "responsibleName", "O nome do responsável deve conter até 200 caracteres")
         );
