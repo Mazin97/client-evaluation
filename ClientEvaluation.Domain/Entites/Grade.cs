@@ -1,9 +1,4 @@
 ﻿using Flunt.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClientEvaluation.Domain.Entites;
 
@@ -15,6 +10,8 @@ public class Grade : Entity
             new Contract<Grade>()
                 .Requires()
                 .IsNotNull(clientId, "clientId", "O id do cliente é obrigatório")
+                .IsBetween(0, 10, score, "Score", "A pontuação deve estar entre 0 e 10")
+                .IsNotNullOrEmpty(reason, "Reason", "O motivo da avaliação é obrigatório")
         );
 
         ClientId = clientId;
